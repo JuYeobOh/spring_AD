@@ -1,0 +1,9 @@
+package com.mysite.ADproject.question;
+
+import java.util.List;
+
+import org.springframework.stereotype.;
+
+public class QuestionService {
+
+}

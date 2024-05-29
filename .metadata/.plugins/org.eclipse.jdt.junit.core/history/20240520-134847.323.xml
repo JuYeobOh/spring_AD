@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ADprojectApplicationTests" project="ADproject" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="com.mysite.ADproject.ADprojectApplicationTests" incomplete="true" displayname="ADprojectApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.mysite.ADproject.ADprojectApplicationTests]">
+    <error>java.lang.NoClassDefFoundError: QuestioinRepository&#13;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)&#13;
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3496)&#13;
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2552)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+Caused by: java.lang.ClassNotFoundException: QuestioinRepository&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)&#13;
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)&#13;
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)&#13;
+	... 4 more&#13;
+&#13;
+</error>
+    <testcase name="testJpa" classname="com.mysite.ADproject.ADprojectApplicationTests" incomplete="true" displayname="testJpa()" uniqueid="[engine:junit-jupiter]/[class:com.mysite.ADproject.ADprojectApplicationTests]/[method:testJpa()]"/>
+  </testsuite>
+</testrun>

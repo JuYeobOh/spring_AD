@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ADprojectApplicationTests" project="ADproject" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.mysite.ADproject.ADprojectApplicationTests" time="0.857" displayname="ADprojectApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.mysite.ADproject.ADprojectApplicationTests]">
+    <testcase name="testJpa" classname="com.mysite.ADproject.ADprojectApplicationTests" time="0.857" displayname="testJpa()" uniqueid="[engine:junit-jupiter]/[class:com.mysite.ADproject.ADprojectApplicationTests]/[method:testJpa()]">
+      <failure>
+        <expected>2</expected>
+        <actual>6</actual>
+        org.opentest4j.AssertionFailedError: There should be two questions in the database ==&gt; expected: &lt;2&gt; but was: &lt;6&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)&#13;
+	at com.mysite.ADproject.ADprojectApplicationTests.testJpa(ADprojectApplicationTests.java:37)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>
